@@ -4,8 +4,8 @@
   "description": "assortment of examples",
   "main": "index.js",
   "scripts": {
-    "cache": "node classesVsPrototypesVsObjects",
-    "race": "node eventLoopTiming",
+    "cache": "node src/classesVsPrototypesVsObjects",
+    "race": "node src/eventLoopTiming",
     "test": "jest"
   },
   "repository": {

@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
-const CacheFromClass = require('../classesVsPrototypesVsObjects/cacheClass');
-const CacheFromPrototype = require('../classesVsPrototypesVsObjects/cachePrototype');
-const CacheFromComposition = require('../classesVsPrototypesVsObjects/cacheComposition');
-const tryCache = require('../classesVsPrototypesVsObjects/tryCache');
+const CacheFromClass = require('../src/classesVsPrototypesVsObjects/cacheClass');
+const CacheFromPrototype = require('../src/classesVsPrototypesVsObjects/cachePrototype');
+const CacheFromComposition = require('../src/classesVsPrototypesVsObjects/cacheComposition');
+const tryCache = require('../src/classesVsPrototypesVsObjects/tryCache');
 
 const size = 2;
 const expected = [[{ b: 'b1' }], { a: 'a1' }];
