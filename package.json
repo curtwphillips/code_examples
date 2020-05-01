@@ -1,0 +1,20 @@
+{
+  "name": "code_examples",
+  "version": "1.0.0",
+  "description": "assortment of examples",
+  "main": "index.js",
+  "scripts": {
+    "race": "node eventLoopTiming",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtwphillips/code_examples.git"
+  },
+  "author": "curtwphillips@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curtwphillips/code_examples/issues"
+  },
+  "homepage": "https://github.com/curtwphillips/code_examples#readme"
+}
