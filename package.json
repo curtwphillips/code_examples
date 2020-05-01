@@ -4,8 +4,9 @@
   "description": "assortment of examples",
   "main": "index.js",
   "scripts": {
+    "cache": "node classesVsPrototypesVsObjects",
     "race": "node eventLoopTiming",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/curtwphillips/code_examples/issues"
   },
-  "homepage": "https://github.com/curtwphillips/code_examples#readme"
+  "homepage": "https://github.com/curtwphillips/code_examples#readme",
+  "devDependencies": {
+    "jest": "^25.5.3"
+  }
 }
